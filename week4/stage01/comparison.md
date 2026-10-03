@@ -104,5 +104,3 @@ it works.
 | Blank name "" | Still rejected | ValueError: Patient name cannot be empty | PASS |
 | Normal booking ("Grace Wong", "Dr. John Doe", "2024-07-22 02:00 PM") | Still works | Stored. Total improved appointments = 1 | PASS - no regression |
 
-Checks 3 and 4b still fail on purpose. They are recorded as questions for the
-client rather than guessed, so the improvement stays controlled as Part G requires.
